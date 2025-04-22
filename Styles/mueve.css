@@ -28,7 +28,7 @@ a {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: rgba(66, 66, 66, 0.5) url("fotos/cigarro.JPG") repeat fixed;
+  background: rgba(66, 66, 66, 0.5) url("assets/fotos/cigarro.JPG") repeat fixed;
   background-position: 50% 100%;
   background-size: cover;
   position: relative;
@@ -44,7 +44,7 @@ a {
   z-index: 4;
   padding: 2px;
   transition: all 1.3s ease-in-out;
-  background: rgba(66, 66, 66, 0.5) url("fotos/hojas.JPG") repeat fixed;
+  background: rgba(66, 66, 66, 0.5) url("assets/fotos/hojas.JPG") repeat fixed;
   background-size: cover;
   background-position: 50% 100%;
   border-radius: 0%;
