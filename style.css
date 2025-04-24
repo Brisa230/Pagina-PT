@@ -1,27 +1,28 @@
 :root {
     font-size: 10px;
     --fullGrid: 1 / 1 / -1 / -1;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-  }
-  
-  header {
-    display: grid;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background-image: url("C:/Users/UAML/Documents/Brisa PT/codigo/Nueva carpeta/fotos/fondo.JPG"); /* Ruta relativa */
+    
+    background-image: url("C:/Users/UAML/Documents/Brisa PT/codigo/Nueva carpeta/fotos/fondo.JPG"); /* Ruta correcta */
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+}
+
+header {
+    display: grid;
+    height: 100vh; 
+    width: 100%;
+    position: relative;
     overflow: hidden;
-  }
-  
-    .foto-centro {
+}
+
+.foto-centro {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -31,9 +32,9 @@
     z-index: 1;
     border-radius: 0.8em;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-  }
-  
-   .video-overlay {
+}
+
+.video-overlay {
     grid-area: var(--fullGrid);
     display: grid;
     justify-content: center;
@@ -43,17 +44,17 @@
     z-index: 2;
     position: relative;
     color: #fff;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: calc(1.8em + 2.5vw);
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.6);
-  }
- 
-  .audio-container {
+}
+
+.audio-container {
     position: absolute;
     top: 75%;
     left: 50%;
@@ -63,26 +64,38 @@
     padding: 1em;
     border-radius: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  main {
+}
+
+main {
     padding: 5em 2em;
     max-width: 94em;
     margin: 0 auto;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: calc(3em + 0.2vw);
     font-weight: 600;
     text-align: center;
     margin: 1.2em 0;
-    color: #111;
-  }
-  
-  p {
+    color: #ffffff;
+}
+
+p {
     font-size: calc(2em + 0.2vw);
     font-weight: 400;
     line-height: 2;
     color: #222;
-  }
-  
+}
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 4px 10px rgba(131, 128, 128, 0.3); 
+    margin-top: 2em; 
+    color: #fff; 
+    max-width: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+}
